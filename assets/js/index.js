@@ -43,7 +43,7 @@ const showData = (data) => {
                     <td>${user.first_name}</td>
                     <td>${user.last_name}</td>
                     <td>${user.email}</td>
-                    <td><img src="${user.avatar}" alt="Avatar" class="imgRedonda" /></td>
+                    <td><img src="${user.avatar}" alt="Avatar" class="imgNonagon" /></td>
                 </tr>`;
     }
     dataContainer.innerHTML = body;
